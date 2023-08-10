@@ -13,6 +13,9 @@ module.exports = {
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    '@typescript-eslint/no-inferrable-types': 'off',
+    '@typescript-eslint/adjacent-overload-signatures': 'off',
+    '@typescript-eslint/no-empty-function': 'off'
   }
 }
