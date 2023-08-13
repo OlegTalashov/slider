@@ -31,6 +31,7 @@
                     position: relative;
                     display: flex;
                     justify-content: center;
+                    background-repeat: no-repeat;
                     .img{
                         transition: opacity .2s;
                         display: block;
@@ -54,6 +55,7 @@
         }
         .btn {
             position: absolute;
+            border: none;
             display: flex;
             background: transparent;
             justify-content: center;
@@ -68,6 +70,8 @@
         }
         .arrow{
             display: flex;
+            align-items: center;
+            justify-content: center;
             background: transparent;
             cursor: pointer;
             content: '';
